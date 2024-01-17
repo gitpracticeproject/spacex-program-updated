@@ -1,0 +1,16 @@
+.loading-img {
+  position: absolute;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  background: black;
+  z-index: 1;
+}
+
+.loading-img p {
+  color: white;
+  font-size: 30px;
+  padding-left: 600px;
+  position: absolute;
+  top: 200px;
+}

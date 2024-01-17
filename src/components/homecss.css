@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 244, 241) !important;
+}
+
+header h1{
+    font-weight: 700;
+}
+
+.hr{
+    top: 50px;
+    position: absolute;
+    height: 1.5px;
+    width: 150px;
+    background-color: rgb(189, 177, 166);
+    left: 50px;
+}
+
+.below-years-section .success-hr{
+    height: 1.5px;
+    width: 150px;
+    background-color: rgb(189, 177, 166);
+    left: 50px;
+}
+
+.below-years-section:last-child span{
+    font-size: 17px;
+}
+
+.content {
+    padding-right: 15px;
+    column-gap: 10px;
+}
+
+.content .outer-left-panel{
+    padding-left: 10px;
+    width: 19%;
+}
+
+.content .left-panel{
+    max-width: 230px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.content .left-panel span{
+    font-weight: 600;
+}
+
+.content .left-panel .p-2{
+    font-weight: 800;
+}
+
+.content .left-panel .years-panel button{
+    background-color: rgb(183, 218, 135);
+    border: none;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.content .left-panel .years-panel .active{
+    background-color: rgb(114, 158, 114);
+}
+
+.content .left-panel .years-panel .col-6{
+    padding: 20px;
+}
+
+.content .below-years-section button {
+    background-color: rgb(183, 218, 135);
+    border: none;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+
+
+.right-panel .col-3 .cards{
+    background-color: #fff;
+    border-radius: 7px;
+    height: 100% 
+}
+
+.content .outer-right-panel{
+    width: 81%;
+}
+
+.content .card-content {
+    padding-left: 9px;
+}
+
+.content .outer-right-panel .cards .card-title{
+    color: rgb(100, 98, 216);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content .outer-right-panel .cards .card-bold-title{
+    margin-right: 20px;
+    top: 300px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.content .outer-right-panel .cards .card-bold-title .sub-item {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content .outer-right-panel .cards .card-bold-title .blue-content{
+    color: rgb(100, 98, 216);
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.content .outer-right-panel .cards .card-bold-title .last-blue-content{
+   position: relative;
+   left: 20px;
+}
+
+.footer .first-name{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.footer .name {
+    font-weight: 500;
+    font-size: 22px;
+}
+.navs{margin-top: 15px;}
+.navs li{list-style: none; float: left; margin: 10px 10px; font-weight:700; background: #c5e09b; padding: 8px 15px; border-radius: 7px;}
+.navs li a{color: #000; text-decoration: none;}
