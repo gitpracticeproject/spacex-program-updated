@@ -4,13 +4,11 @@ export default function Customhook() {
   const [Year, setYear] = useState([]);
   const [launch, setLaunch] = useState([]);
   const [land, setLand] = useState([]);
-  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     axios
       .get("https://api.spacexdata.com/v3/launches?limit=100")
       .then((res) => {
-        if(res.data > 0) setLoading(false);
-        else setLoading(true);
         setYear(res.data);
       })
       .catch((e) => {
@@ -38,5 +36,5 @@ export default function Customhook() {
       });
   }, []);
 
-  return { Year, launch, land , loading };
+  return { Year, launch, land };
 }

@@ -4,7 +4,7 @@ import Middata from "./mid-data";
 import "./../homecss.css";
 import Customhook from "./custom-hook";
 import { Routes, Route } from "react-router-dom";
-import Loader from "./Loader";
+
 
 const Main = () => {
   const [year, setyear] = useState([]);

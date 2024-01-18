@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Customhook from "./custom-hook";
 
 const Nav = (props) => {
   const { year } = props;
+  // const fetchHook = Customhook();
+  // const fetchedData = fetchHook?.Year;
+
+  // useEffect(() => {
+  //   const url = window.location.href;
+  //   const parts = url.split("/");
+  //   const filterValue = parts[parts.length - 1];
+  //   const filteredData = fetchedData.filter(
+  //     (item) => item.launch_year === filterValue
+  //   );
+  //   fetchHook?.setYear(filteredData);
+  // }, []);
+
+  useEffect(() => {
+    const url = window.location.href;
+    const parts = url.split("/");
+    const filterValue = parts[parts.length - 1];
+    const filteredData = data.filter(
+      (item) => item.launch_year === filterValue
+    );
+  }, []);
+
   return (
     <>
       <div className="left-panel">
